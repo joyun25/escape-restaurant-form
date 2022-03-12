@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box
+}
+/* Css Reset end */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+/* layout */
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #212529;
+}
+
+label {
+    display: block;
+}
+
+.checkboxContainer label {
+    display: inline-block;
+}
+
+input {
+    border: 1px solid #CED4DA;
+    line-height: 38px;
+    padding: 0 11px;
+}
+
+.pb-1 {
+    padding-bottom: 8px;
+}
+
+.pb-2 {
+    padding-bottom: 16px;
+}
+
+.pb-3 {
+    padding-bottom: 24px;
+}
+
+.pt-1 {
+    padding-top: 8px;
+}
+
+.mt-1 {
+    margin-top: 8px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-half-label {
+    width: calc(50% - 4px);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+/* My CSS */
+
+.wrap {
+    max-width: 834px;
+    margin: 0 auto;
+    padding: 24px 17px 95px;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 44.8px;
+    text-align: center;
+}
+
+.submitButton {
+    background: #212529;
+    color: #fff;
+    border: 0;
+}
+
+/* mobile */
+@media (max-width: 428px) {
+    .pb-mb-2 {
+        padding-bottom: 16px;
+    }
+    
+    .w-mb-100 {
+        width: 100%;
+    }
+
+    .d-mb-block {
+        display: block;
+    }
+
+    .wrap {
+        padding: 24px 8px 11px;
+    }
+}

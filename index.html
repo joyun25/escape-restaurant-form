@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>六角西餐廳｜表單</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="pb-3">六角西餐廳</h1>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSehgHKabxjT9MkOS0ZtWkYZosMbS6xD_2pet0obvBLnOSR_UQ/viewform">
+            <div class="pb-2 d-flex d-mb-block justify-content-between">
+                <label class="w-half-label w-mb-100 pb-mb-2" for="name">
+                    姓名
+                    <br>
+                    <input class="flex-grow-1 w-100 mt-1" type="text" name="entry.323421552" id="name" required>
+                </label>
+                <label class="w-half-label w-mb-100" for="telephone">
+                    電話
+                    <br>
+                    <input class="flex-grow-1 w-100 mt-1" type="number" name="entry.1503473999"" id="telephone" required>
+                </label>
+            </div>
+            <label class="pb-2" for="date">
+                日期
+                <br>
+                <input class="w-100 mt-1" type="date" name="entry.2021428242" id="date" required>
+            </label>
+            <label class="pb-2" for="numberOfPeople">
+                用餐人數
+                <br>
+                <input class="w-100 mt-1" type="number" name="entry.54711931" id="numberOfPeople" min="1" step="1" required>
+            </label>
+            <div class="checkboxContainer pb-3">
+                <p class="pb-1">其他項目</p>
+                <input id="childChair" type="checkbox" name="entry.1484472464" value="childChair">
+                <label for="childChair">需要兒童座椅</label>
+                <br>
+                <input id="vegetarianDiet" type="checkbox" name="entry.1484472464" value="vegetarianDiet">
+                <label for="vegetarianDiet">素食餐點</label>
+                <br>
+                <input id="smokeArea" type="checkbox" name="entry.1484472464" value="smokeArea">
+                <label for="smokeArea">吸菸區</label>
+            </div>
+            <button class="submitButton w-100 pt-1 pb-1" type="submit">送出</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
